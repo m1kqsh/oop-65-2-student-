@@ -1,0 +1,4 @@
+git status
+git add .
+git commit -m "lesson1"
+git branch
