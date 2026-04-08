@@ -1,4 +1,10 @@
-git status
-git add .
-git commit -m "lesson1"
-git branch
+git status - статус
+git add . - сохрн в буфер обмен
+git commit -m "lesson1" - создать комита
+git branch - просмотров веток
+git restore . или имя файла - отмена, откат команд
+git reset . или имя файла - вытаскивает из git add .
+gti reset --mixed HEAD~ - удаление последнего комита
+git switch
+git push origin master - отправка ветки
+git merge branch_name - для стагивание и слияние с указаной ветки на ветку там где мы
