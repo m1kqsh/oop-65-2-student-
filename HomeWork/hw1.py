@@ -1,28 +1,3 @@
-# class Hero:
-#         # --конструктор класса--
-#         def __init__(self, nick, hp, lvl):
-
-#             # --атрибуты класса(без скобок)--
-#             self.nick = nick
-#             self.hp = hp
-#             self.lvl = lvl
-#         # функции действия(со скобками)
-#         def action(self):
-#             return f"{self.nick} base action activate!!"
-#     # --объект--
-#
-# Kirito = Hero("Kirito", 1000, 1000)
-# Asuna = Hero("Asuna", 1000, 1000)
-#
-# print(Kirito.action())
-# print(Asuna.action())
-
-# my_int = 123
-# my_int.
-# my_str = "123"
-# my_str.
-
-# ДЗ
 class Hero:
     def __init__(self, name, level, health, strength):
         self.name = name
@@ -32,6 +7,7 @@ class Hero:
 
     def greet(self):
         return f"Привет, я {self.name}, мой уровень {self.level}"
+
     def attack(self):
         self.strength -= 1
         return f"{self.name} наносит удар!"
